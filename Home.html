@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="CSSwholedocu.css">
+  <link rel="stylesheet" href="reiews.css">
+  <script src="Javascariptss.js" defer></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="icon" href="Logos.png" style="border-radius:50% ; mix-blend-mode: multiply; filter: contrast(2);">
+  <title>Estude</title>
+</head>
+
+
+
+<header>
+  <div class="nav">
+      <div class="icon">
+        <a class="navbar-brand" href="Home.html">
+          <img src="Logos.png" alt="Logo" width="31" height="25" class="d-inline-block align-text-top" style="mix-blend-mode: multiply;
+          filter: contrast(1)">Estude</a>
+      </div>
+        <div><a href="Home.html" role="button" >Home</a></div>
+        <div><a href="About.html" role="button" aria-expanded="false">About</a></div>    
+            <div><a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Method</a>
+                <div class="dropdown-menu">
+                <div><a class="dropdown-item" href="Method 1.html">Pomodoro Method</a></div>
+                <div><a class="dropdown-item" href="Method 2.html">Feynman Method</a></div>
+                <div><a class="dropdown-item" href="Method3.html">Leitner Method </a></div>
+                <div><a class="dropdown-item" href="Method 4.html">SQ3R Method</a></div>
+                <div><a class="dropdown-item" href="Method 5.html">Active Recall</a></div>
+                <div><a class="dropdown-item" href="Method 6.html">All-Night Studying</a></div>
+                <div><a class="dropdown-item" href="Method 7.html">Blurting Method</a></div>
+                <div><a class="dropdown-item" href="Method 8.html">Multisensory Learning Method </a></div>
+                </div>
+            </div>
+  
+            <div><a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tips</a>
+              <div class="dropdown-menu">
+              <div><a class="dropdown-item" href="Tech1.html">Find YOUR style</a></div>
+              <div><a class="dropdown-item" href="Tech2.html">Establish Goals</a></div>
+              <div><a class="dropdown-item" href="Tech3.html">Know your time</a></div>
+              <div><a class="dropdown-item" href="Tech4.html">Teach it!</a></div>
+              <div><a class="dropdown-item" href="Tech5.html">Take Notes</a></div>
+              <div><a class="dropdown-item" href="Tech6.html">Reorganize your Notes</a></div>
+              <div><a class="dropdown-item" href="Tech7.html">Take Breaks</a></div>
+              <div><a class="dropdown-item" href="Tech8.html">Minimize Distractions	</a></div>
+              </div>
+          </div>
+
+          <span class="material-symbols-outlined search-icon-nav" id="searchIcon">
+            search
+            </span>
+            <div class="searchbar">
+
+        
+                <div class="search-box">
+                    <span class="material-symbols-outlined search-icon">
+                        search
+                        </span>
+                        <input type="text" id="input-box" placeholder="Search here..." >           
+                </div>
+        
+            </div>
+
+
+          <div><button class="btn-Login-popup">Login</button></div>    
+      </div>
+  </header>
+
+  <div class="result-box">
+</div>
+
+<div class="wrapper">
+    <span class="material-symbols-outlined close" id="close">
+        close
+        </span>
+    <div class="form-box login">
+        <h2>Login</h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="name" required>
+                <label>Userame:</label>
+            </div>
+            <div class="input-box">
+                <input type="password" required>
+                <label>Password:</label>
+            </div>
+            <div class="remember-forgot"> 
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forgot Password?</a>
+            </div>
+               <button type="submit" class="btn">Login</button> 
+
+               <div class="login-signup">
+                    <p>No Account? <a href="#" class="signup-link">Sign Up!</a></p>
+               </div>
+        </form>
+    </div>
+
+
+    <div class="form-box signup">
+        <h2>Signup!</h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="gmail" required>
+                <label>Gmail:</label>
+            </div>
+            <div class="input-box">
+                <input type="text" required>
+                <label>Userame:</label>
+            </div>
+            <div class="input-box">
+                <input type="password" required>
+                <label>Password:</label>
+            </div>
+            <div class="remember-forgot"> 
+                <label><input type="checkbox">I agree to the rules and conditions</label>
+            </div>
+               <button type="submit" class="btn">Signup</button> 
+
+               <div class="login-signup">
+                    <p>Have an existing account? <a href="#" class="login-link">Login</a></p>
+               </div>
+        </form>
+    </div>
+</div>
+
+
+<body>
+    
+        <div class="content">
+            <div class="title">
+                <h1>Welcome to Estude!</h1>
+                </div>
+                <video controls> 
+                    <source src="1stVideo.mp4" type="video/mp4">
+                </video>
+
+                <h5 class="one">- Studying has become an integral part in every learner’s educational journey. The problem is that most people 
+                go for the traditional routine where they read and mostly memorize the information without understanding the 
+                material itself which may lead to the sudden loss of interest in learning.</h5>
+
+                <h5>- This website aims to remove that stigma and let learners explore the many ways in studying. That will not 
+                only make studying exciting but also turn those scores so high that it will reach the stars! </h5>
+                
+
+            
+        </div>
+
+        <div class="content">
+
+            <h1>Check out these Methods!</h1>  
+
+            <h2 class="title3">Pomodoro Method</h2>
+
+            <video controls class="main-pomo"> 
+                <source src="Pomodoro.mp4" type="video/mp4">
+            </video>
+
+            <div class="main-info">
+                <p><h3>This study method is a time-based method which increases productivity and may lead u to 
+                    achieving that high grade you want!
+                </h3></p>
+            
+                <a href="Method 1.html"><p><h4>Click here for more information!
+                </h4></p></a>
+
+            </div>    
+
+            <h2 class="title2">All-Nighter Method</h2>
+
+            <video controls class="main-pomo2"> 
+                <source src="All-night Studying.mp4" type="video/mp4">
+            </video>
+
+            <div class="main-info2">
+                <p><h3>Are you a night owl but can't seem to study? I think this is a great method for you
+                    especially if you like pulling an all-nighter often!
+                </h3></p>
+            
+                <a href="Method 6.html"><p><h4>Click here to check it out!
+                </h4></p></a>
+            </div>    
+
+        </div>
+
+   <div class="content">
+
+    <h1>Tips that could help you</h1>
+
+
+        <h2 class="tip-title">Know YOUR style<h2>
+            <p class="tip-info">If you are having a hard time learning or generally just studying, maybe you rely too much
+                in the traditional way of studying. We are all different after all maybe your not like everyone and your 
+                brain is wired a bit differently. 
+            </p>
+
+            <p class="tiprefer"><a href="Tech1.html">Click here for more info.</a></p>
+
+
+            <h2 class="tip-title2">Take breaks<h2>
+
+                <p class="tip-info"> I know that you want to be done with school. Trust me, I have school right now
+                    and I am cramming as much as knowledge I can before exam starts. Althought it does seem like a 
+                    good idea to force yourself to understand and remember the different lessons that was thought, 
+                    I recommend you take a break. Taking a break would help you in so many ways.
+
+                </p>
+    
+                <p class="tiprefer"><a href="Tech7.html">Want to know more? Click here!</a></p>
+    
+   </div>
+
+<div class="content">
+
+    <h1 class="reviews"><a href="Test.html">Click to check out what people have to say!</a></h1>
+
+
+</div>
+
+    
+</body>
+  
+
+
+<footer>
+
+    <div class="footer">
+        
+       <div class="quote">
+        <h4>Study to Achieve.</h4>
+    </div>
+
+    <div class="socs">
+        <a class="navbar-brand" href="https://www.facebook.com/odini.alhambra?mibextid=ZbWKwL"><img src="FB.jpg" alt="Logo"  class="socials"></a>
+        <a class="navbar-brand" href="https://www.instagram.com/diniihihihi?igsh=azc3ZmVmcTNzdDNr"><img src="IG.jpg" alt="Logo"  class="socials"></a>
+        <a class="navbar-brand" href="https://pin.it/w6VrLzxDq"><img src="pinterest.jpg" alt="Logo"  class="socials"></a>
+
+        
+    </div>
+
+
+
+<style>
+
+.reviews{
+text-align: center;
+margin-left: 14cm;
+margin-top: 1cm;
+
+text-decoration: none;
+    color: black;
+}
+
+.reviews a{
+
+    text-decoration: none;
+    color: black;
+}
+
+.reviews a:hover{
+
+color: rgb(243, 72, 72);
+
+}
+
+.tip-title{
+
+    margin-top: .5cm;
+    margin-left: 3cm;
+    font-weight: bold;
+
+}
+
+.tip-title2{
+
+margin-top: 3cm;
+margin-left: 3cm;
+font-weight: bold;
+}
+
+
+.tip-info{
+    margin-left: 5cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    font-size: 25px;
+}
+
+.tiprefer a{
+    color: rgba(0, 0, 0, 0.911);
+    font-size: 20px;
+    text-decoration: line;
+    float: right;
+    margin-right: 3cm;
+}
+
+.tiprefer a:hover{
+    color: rgb(243, 72, 72);
+    text-decoration: none;
+    float: right;
+    margin-right: 3cm;
+}
+
+.footer{
+    margin-top: 2cm;
+}
+
+.title{ 
+    text-align: center;
+    margin-bottom: 1cm;
+
+}
+
+.title2{
+    float: right;
+    margin-right: 3cm;
+    margin-top: 1cm;
+}
+
+.title3{
+    margin-left: 3cm;
+    margin-top: 1cm;
+}
+
+h5{
+    text-justify: auto;
+    margin-right: 3cm;
+    margin-left: 3cm;
+}
+
+.one{
+    margin-top: .5cm;
+}
+
+h1{
+    font-family: 'Lucida Sans Regular';
+    margin-left: 2cm;
+}
+
+.content-reviews{
+ background-color: rgb(255, 255, 255, 0.7);
+ backdrop-filter: blur(8px);
+ width: 100%;
+ margin-top: 2cm;
+ padding-bottom: 2cm;
+ padding-top: .5cm;
+ box-shadow: 30px 30px 30px rgb(0, 0, 0, .5);
+align-items: center;
+}
+
+.content{
+ background-color: rgb(255, 255, 255, 0.7);
+ backdrop-filter: blur(8px);
+ width: 100%;
+ margin-top: 2cm;
+ padding-bottom: 2cm;
+ padding-top: .5cm;
+ box-shadow: 30px 30px 30px rgb(0, 0, 0, .5);
+align-items: center;
+font-size: 50px;
+
+
+}
+
+
+video{ 
+
+    width: 600px;
+    height: 350px;
+    margin-left: 17.5cm;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+.main-pomo{
+    width: 600px;
+    height: 340px;
+    margin-left: 3cm;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+.main-info a{
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.911);
+}
+
+.main-info a:hover{
+
+text-decoration: none;
+color: rgb(243, 72, 72);
+}
+
+.main-info2 a{
+
+text-decoration: none;
+color: black;
+}
+
+.main-info2 a:hover{
+
+text-decoration: none;
+color: rgb(243, 72, 72);
+}
+.main-pomo2{
+    width: 600px;
+    height: 340px;
+    margin-left: 32cm;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+
+.main-info{
+
+    float: right;
+    margin-right: 10cm;
+    margin-left: 20cm;
+    margin-top: -9cm;
+}
+
+.main-info2{
+
+float: left;
+margin-left: 10cm;
+margin-right: 20cm;
+margin-top: -9cm;
+}
+
+
+    </style>
+
+
+
+
+</html>
